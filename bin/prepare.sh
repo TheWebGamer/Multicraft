@@ -79,6 +79,11 @@ elif [ $JAR_FILE == 'FTB.jar' ]; then
 	MAKE_ROOT
 	ZIP_FILE=FTBUltimate.zip
 	UNZIP
+elif [ $JAR_FILE == 'DireWolf20.jar' ]; then
+	ROOT_DIR=DireWolf20
+	MAKE_ROOT
+	ZIP_FILE=DireWolf20.zip
+	UNZIP
 elif [ $JAR_FILE == 'Dire.jar' ]; then
 	ROOT_DIR=Dire
 	MAKE_ROOT
@@ -98,6 +103,16 @@ elif [ $JAR_FILE == 'Unleashed.jar' ]; then
 	ROOT_DIR=Unleashed
 	MAKE_ROOT
 	ZIP_FILE=Unleashed.zip
+	UNZIP
+elif [ $JAR_FILE == 'Infinity.jar' ]; then
+	ROOT_DIR=Infinity
+	MAKE_ROOT
+	ZIP_FILE=Infinity.zip
+	UNZIP
+elif [ $JAR_FILE == 'TPPI.jar' ]; then
+	ROOT_DIR=TPPI
+	MAKE_ROOT
+	ZIP_FILE=TPPI.zip
 	UNZIP
 elif [ $JAR_FILE == 'BTeam.jar' ]; then
 	ROOT_DIR=BTeam
