@@ -160,6 +160,26 @@ elif [ $JAR_FILE == 'tshock.jar' ]; then
 	MAKE_ROOT
 	ZIP_FILE=tshock.zip
 	UNZIP
+elif [ $JAR_FILE == 'ATLSkyFactory.jar' ]; then
+	ROOT_DIR=ATLSkyFactory
+	MAKE_ROOT
+	ZIP_FILE=ATLSkyFactory.zip
+	UNZIP
+elif [ $JAR_FILE == 'ATLResRiseMain.jar' ]; then
+	ROOT_DIR=ATLResRiseMain
+	MAKE_ROOT
+	ZIP_FILE=ATLResRiseMain.zip
+	UNZIP
+elif [ $JAR_FILE == 'ATLYogcastComplete.jar' ]; then
+	ROOT_DIR=ATLYogcastComplete
+	MAKE_ROOT
+	ZIP_FILE=ATLYogcastComplete.zip
+	UNZIP
+elif [ $JAR_FILE == 'ATLCrackPack.jar' ]; then
+	ROOT_DIR=ATLCrackPack
+	MAKE_ROOT
+	ZIP_FILE=ATLCrackPack.zip
+	UNZIP
 elif [ $JAR_FILE == 'teamspeak.jar' ]; then
 	ROOT_DIR=TeamSpeak3
 	MAKE_ROOT
