@@ -149,6 +149,11 @@ elif [ $JAR_FILE == 'TekkitClassic.jar' ]; then
 	MAKE_ROOT
 	ZIP_FILE=Tekkit_Classic.zip
 	UNZIP
+elif [ $JAR_FILE == 'FTBRegrowth.jar' ]; then
+	ROOT_DIR=FTBRegrowth
+	MAKE_ROOT
+	ZIP_FILE=FTBRegrowth.zip
+	UNZIP
 elif [ $JAR_FILE == 'Tekkit_Lite.jar' ]; then
 	ROOT_DIR=Tekkit_Lite
 	MAKE_ROOT
