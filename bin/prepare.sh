@@ -170,6 +170,11 @@ elif [ $JAR_FILE == 'ATLSkyFactory.jar' ]; then
 	MAKE_ROOT
 	ZIP_FILE=ATLSkyFactory.zip
 	UNZIP
+elif [ $JAR_FILE == 'ATLSkyFactory.jar' ]; then
+	ROOT_DIR=ATLSkyFactory
+	MAKE_ROOT
+	ZIP_FILE=ATLSkyFactory.zip
+	UNZIP
 elif [ $JAR_FILE == 'ATLResRiseMain.jar' ]; then
 	ROOT_DIR=ATLResRiseMain
 	MAKE_ROOT
